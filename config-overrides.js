@@ -25,7 +25,6 @@ const generateConfiguration = async () => {
     console.log(error);
     process.exit(1);
   }
-  process.exit();
 };
 
 generateConfiguration();
